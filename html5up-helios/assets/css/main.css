@@ -188,6 +188,11 @@ input, select, textarea {
 		text-align: justify;
 	}
 
+	p.normal {
+  font-weight: normal;
+}
+
+
 	br.clear {
 		clear: both;
 	}
