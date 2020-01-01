@@ -120,6 +120,13 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom-color: transparent;
 	}
+	
+	h1.inline {
+		 display: inline;
+		 font-weight: 400;
+		color: #483949;
+		line-height: 1.25em;
+	}
 
 	h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
 		font-weight: 600;
@@ -1761,7 +1768,8 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
-		section.special > header, section.special > footer, article.special > header, article.special > footer {
+		section.special > 
+		, section.special > footer, article.special > header, article.special > footer {
 			text-align: center;
 		}
 
@@ -1818,6 +1826,13 @@ input, select, textarea {
 		.image.centered {
 			display: block;
 			margin: 0 0 2em 0;
+		}
+		
+		.image.padded{
+			display: block;
+			width: 100%;
+			 padding-left: 100px;
+			padding-right: 100px;
 		}
 
 			.image.centered img {
@@ -2427,6 +2442,18 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+/* Banner */
+
+	#banner2 {
+		background: #fff;
+		text-align: center;
+		padding: 4.5em 0 4.5em 0;
+		margin-bottom: 0;
+	}
+
+		#banner2 header > p {
+			margin-bottom: 0;
+		}
 /* Content */
 
 	#content > hr {
